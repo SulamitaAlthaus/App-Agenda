@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         fontSize: 16
     },
-    filterTextActived:{
+    filterTextActive:{
         color: '#ffbf00',
         fontSize: 18,
         fontWeight: 'bold',
@@ -34,9 +34,26 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         opacity: 0.5
-        
+    },
+    content:{
+        width: '100%',
+        marginTop: 30,
+    },
+    title:{
+        width: '100%',
+        borderBottomWidth: 1,
+        borderColor: '#000000',
+        alignItems: 'center'
+    },
+    titleText:{
+        borderColor: '#000000',
+        fontSize: 18,
+        fontWeight: 'bold',
+        position: 'relative',
+        top: 11,
+        backgroundColor: '#FFF',
+        paddingHorizontal: 5
     }
-
 
 })
 
