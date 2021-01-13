@@ -15,25 +15,25 @@ export default function Header({ showNotification, showBack }) {
         <View style={styles.header}>
 
             { showBack ?
-            <TouchableOpacity style={styles.leftIcon} >
-                <Image source={back} style={styles.leftIconImage} />
-            </TouchableOpacity>
-            :
-            <TouchableOpacity style={styles.leftIcon} >
-                <Image source={qrcode} style={styles.leftIconImage} />
-            </TouchableOpacity>
+                <TouchableOpacity style={styles.leftIcon} >
+                    <Image source={back} style={styles.leftIconImage} />
+                </TouchableOpacity>
+                :
+                <TouchableOpacity style={styles.leftIcon} >
+                    <Image source={qrcode} style={styles.leftIconImage} />
+                </TouchableOpacity>
             }
 
             <Image source={logo} style={styles.logo} />
 
-            { showNotification && 
+            { showNotification &&
 
-            <TouchableOpacity style={styles.notification}>
-                <Image source={bell} style={styles.notificationImage} />
-                <View style={styles.circle}>
-                    <Text style={styles.notificationText}>3</Text>
-                </View>
-            </TouchableOpacity>
+                <TouchableOpacity style={styles.notification}>
+                    <Image source={bell} style={styles.notificationImage} />
+                    <View style={styles.circle}>
+                        <Text style={styles.notificationText}>3</Text>
+                    </View>
+                </TouchableOpacity>
             }
         </View>
     )

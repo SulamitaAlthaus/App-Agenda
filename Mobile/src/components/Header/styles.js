@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#1a1a1a',
         justifyContent: "center",
         alignItems: "center",
-        borderBottomWidth:  5,
+        borderBottomWidth: 5,
         borderBottomColor: '#ffbf00',
         paddingTop: 15
 
