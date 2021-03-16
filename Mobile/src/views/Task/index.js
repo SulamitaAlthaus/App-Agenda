@@ -15,6 +15,7 @@ import styles from './styles'
 //COMPONENTES
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import DateTimeInput from '../../components/DateTimeInput'
 
 
 import typeIcons from '../../utils/typeicons'
@@ -24,7 +25,7 @@ export default function Task() {
 const [done, setDone]= useState(false )
 
     return (
-        <KeyboardAvoidingView behavior='padding' style={styles.container}>
+        <KeyboardAvoidingView style={styles.container}>
             <Header showBack={true} />
             <ScrollView style={{ width: '100%' }}>
                 <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}  style={{marginVertical: 10}}>
@@ -45,10 +46,12 @@ const [done, setDone]= useState(false )
                 <TextInput style={styles.inputArea} maxLength={200}
                     multiline={true}
                     placeholder="Descrição da atividade que preciso lembrar" />
+                <DateTimeInput type={'date'}/>
+                <DateTimeInput type={'hour'}/>
 
                 <View style={styles.inline}>
                     <View style={styles.inputInline}>
-                        <Switch onValueChange={() => setDone(!done)} value={done} thumbColor={done ? '#00761B' : '#ffbf00'}/>
+                        <Switch onValueChange={() => setDone(!done)} value={done} thumbColor={done ? '#000000' : '#ffbf00'}/>
                         <Text style={styles.switchLabel}>Concluído</Text>
                     </View>
                     <TouchableOpacity>
