@@ -54,6 +54,7 @@ $ npm install
 $ npm start 
 
 A aplicação inciará na porta:3000 - acesse <http://localhost:19002/>
+
 Abra o app do ExpoGo no celular e aponte a câmera para o QrCode que aparece no site
 
 
