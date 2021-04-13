@@ -9,7 +9,7 @@
 
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MongoDB](https://www.mongodb.com/try/download/enterprise).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/try/download/enterprise) e [Adobe XD](https://www.adobe.com/br/products/xd.html) para visualizar as telas do projeto.
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), e para testar o aplicativo, você deve instalar no seu celular o [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US)
 
 
@@ -66,6 +66,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [MongoDB](https://docs.mongodb.com/)
+- [Adobe XD](https://www.adobe.com/br/products/xd.html)
 
 ### Autor
     Sulamita Althaus 
