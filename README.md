@@ -9,7 +9,7 @@
 
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MongoDB] (https://www.mongodb.com/try/download/enterprise).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MongoDB](https://www.mongodb.com/try/download/enterprise).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), e para testar o aplicativo, você deve instalar no seu celular o [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US)
 
 
