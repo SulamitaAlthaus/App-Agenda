@@ -32,7 +32,7 @@ O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ### Rodando o Front End
 
 #### Acesse a pasta do projeto no terminal/cmd
-$ cd frontend
+$ cd web
 
 #### Instale as dependências
 $ npm install
